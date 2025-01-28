@@ -17,7 +17,7 @@ A Python-based tool for recursively resolving JSON references across multiple fi
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/jsonr.git
+   git clone https://github.com/jaun-van-heerden/jsonr.git
    cd jsonr
    ```
 
