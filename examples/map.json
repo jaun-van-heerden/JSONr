@@ -1,0 +1,4 @@
+{
+  "base": "config/base.json",
+  "network": "config/network.json"
+}
