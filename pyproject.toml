@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsonr"
+version = "0.1.0"
+description = "JSON Recursive Resolver – resolve $ref references across multiple JSON files"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+keywords = ["json", "resolver", "references", "configuration", "modular"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+validation = ["jsonschema>=4.0"]
+dev = ["pytest>=7.0", "jsonschema>=4.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["jsonr*"]
